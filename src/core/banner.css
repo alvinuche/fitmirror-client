@@ -1,0 +1,55 @@
+/* .banner {
+	background-color: black;
+} */
+
+/* hero */
+.banner {
+	min-height: 100vh;
+	background: linear-gradient(rgba(22, 174, 245, 0.5), rgba(0, 0, 0, 0.7)),
+		url(../image/bg-img.jpg) center/cover no-repeat;
+}
+
+.banner-coach {
+	background: linear-gradient(rgba(0, 229, 255, 0.5), rgba(0, 0, 0, 0.7)),
+		url(../image/coach.jpg) top/cover no-repeat;
+	/* min-height: 100vh; */
+	display: grid;
+	place-items: center;
+	text-align: center;
+}
+.banner {
+	min-height: 100vh;
+	display: grid;
+	place-items: center;
+	text-align: center;
+}
+.container h1 {
+	color: var(--clr-white);
+	text-transform: uppercase;
+}
+.container p {
+	color: var(--clr-white);
+	max-width: 25rem;
+	margin: 0 auto;
+	margin-bottom: 1.25rem;
+}
+
+/* sections and title */
+.title h3 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#about {
+	height: 100vh;
+}
+
+#about-coach {
+	height: 60vh;
+}
+
+@media screen and (min-width: 800px) {
+	.banner-coach {
+		min-height: 100vh;
+	}
+}
